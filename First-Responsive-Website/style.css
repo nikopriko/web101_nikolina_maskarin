@@ -1,0 +1,99 @@
+.styling {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: grid;
+    height: 100vh;
+    grid-row: 50% 50%;
+    
+
+}   
+
+.top_of_page {
+    display: flex;
+    height: 50vh;
+    background-color: turquoise;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    font-style: normal; color: white;
+}
+
+.bottom_of_page {
+    height: 50vh;
+    text-align:center;
+    display: flex;
+    background-color: black;
+    font-style: normal; color: white;
+    resize: horizontal;
+
+}
+
+
+
+article {
+    height: 30px;
+    width: 84%;
+    margin-top: 30px;
+    margin-right: 7%;
+    margin-left: 7%;
+    align-self: center;
+    
+}
+
+p {
+    margin-left: 7%;
+    margin-right: 7%;
+    text-wrap: wrap;
+}
+
+
+@media (min-width: 576px) {
+    .top_of_page{
+        background-color: rgb(97, 179, 250);
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    .bottom_of_page {
+        flex-direction: column; 
+        background-color: white;
+        font-style: normal; color: black;
+        align-items: center;
+        margin-right: 30%;
+        margin-left: 30%;
+        
+    } 
+}
+
+
+@media (min-width: 992px) { 
+    .top_of_page {
+        display: flex;
+        height: 50vh;
+        background-color: turquoise;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
+        font-style: normal; color: white;
+        
+    }
+    
+    .bottom_of_page {
+        height: 50vh;
+        text-align:center;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: black;
+        font-style: normal; color: white;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+}
+
+
+
+
+
+
