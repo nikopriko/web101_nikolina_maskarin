@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" >
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" >
+    </div>
+
+    <div>
+      <label for="comments">Comments</label>
+      <textarea type="text" id="comments" name="comments"  minlength="20" maxlength="90" ></textarea>
+    </div>
+
+    <div>
+      How did you hear about me?
+      <div>
+        <label for="classmate">Classmate</label>
+        <input type="checkbox" name="classmate" id="classmate">
+      </div>
+      <div>
+        <label for="resumeSubmission">Resume Submission</label>
+        <input type="checkbox" name="resumeSubmission" id="resumeSubmission">
+      </div>
+      <div>
+        <label for="LinkedIn">LinkedIn</label>
+        <input type="checkbox" name="LinkedIn" id="LinkedIn">
+      </div>
+      <div>
+        <label for="codingAcademyRec">Coding Academy Rec</label>
+        <input type="checkbox" name="codingAcademyRec" id="codingAcademyRec">
+      </div>
+    </div>
+
+    Would you like to be contacted?
+    <div>
+      <label for="contactedYes">Yes</label>
+      <input type="radio" name="contactedYes" id="contactedYes" value="contactedYes">
+    </div>
+    <div>
+      <label for="contactedNo">No</label>
+      <input type="radio" name="contactedNo" id="contactedNo" value="contactedNo">
+    </div>
+
+  </div>
+  <button type="reset">Reset</button>
+  <button type="submit">Submit</button>
+
+  <div>
+    Add your birthday
+    <label for="date">Birthdate</label>
+    <input type="date" name="date" id="date" min="2019-06-10">
+  </div>
+  </form>
+
+  <!-- <script src="scripts.js"></script> -->
+</body>
+</html>
