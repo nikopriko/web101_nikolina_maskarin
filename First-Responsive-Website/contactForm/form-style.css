@@ -1,0 +1,39 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(212, 195, 255);
+    text-align: center;
+}
+
+div {
+    padding-bottom: 20px;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+@media only screen and (min-width: 600px)
+{
+   body {
+     background-color: rgb(175, 145, 251);
+         form {
+             text-shadow: 1px;
+             margin-top: 5%;
+             }
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+   body {
+     background-color: rgb(110, 75, 198);
+         form {
+             text-shadow: 2px;
+             margin-top: 5%;
+             color:white;
+             }
+    }
+}
+
